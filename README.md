@@ -49,6 +49,7 @@ This will help you replace all objects using an older model with the one you jus
 
 To overwrite objects, you need to first select which of them you want to overwrite.
 You can do this by either entering the object's file path manually or selecting the file using the file browser.
+
 Then, when you are sure with what object to overwrite, click `Overwrite Objects in Unity`, and that's it!
 
 ***IMPORTANT: THIS WILL OVERWRITE ALL OBJECTS WITH THE OLDER MODEL. ONLY DO IT WHEN YOU ARE SURE ABOUT WHAT YOU ARE DOING***
