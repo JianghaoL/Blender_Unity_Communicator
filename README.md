@@ -3,7 +3,7 @@ This is a Blender and Unity add-on that helps developers easily export models to
 
 ## How to Set Up?
 ### On Blender Side
-Add the python script `Blender_Unity_Communicator` the way you would when adding an add-on!
+Add the python script `Blender_Unity_Communicator.py` the way you would when adding an add-on!
 
 **Specifically, here is how you can set it up:**
 First, go to the `Add-ons` tab
@@ -14,7 +14,7 @@ Then, find the drop-down icon on the top-right corner of the window.
 Finally, select `Install from Disk...` and select the python file.
 
 ### On Unity Side
-Simply import the C-sharp script `BlenderCommunicator`
+Simply import the C-sharp script `BlenderCommunicator.cs`
 
 ## How to Use?
 ### Exporting in Blender
