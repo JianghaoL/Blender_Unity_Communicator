@@ -4,10 +4,13 @@ This is a Blender and Unity add-on that helps developers easily export models to
 ## How to Set Up?
 ### On Blender Side
 Add the python script `Blender_Unity_Communicator` the way you would when adding an add-on!
+
 **Specifically, here is how you can set it up:**
 First, go to the `Add-ons` tab
 `Edit >> Preferences >> Add-ons`
+
 Then, find the drop-down icon on the top-right corner of the window.
+
 Finally, select `Install from Disk...` and select the python file.
 
 ### On Unity Side
@@ -15,12 +18,18 @@ Simply import the C-sharp script `BlenderCommunicator`
 
 ## How to Use?
 ### Exporting in Blender
-When you finish setting up the add-on, you should see a tab show up on the side of the screen. **You can find it in __3D Viewport__ only**
+When you finish setting up the add-on, you should see a tab show up on the side of the screen. 
+
+**You can find it in __3D Viewport__ only**
 
 You need to either enter the Unity project path manually or select the project using the file browser.
+
 ***Your path should lead to the top level of your Unity project***
+
 Here is an example path:
+
 `"E:\Unity Projects\TestProject"`
+
 The add-on will automatically direct all its exported files to the Assets folder - don't worry about that!
 
 After filling in the project path, you can export your models in the scene.
@@ -46,7 +55,9 @@ Then, when you are sure with what object to overwrite, click `Overwrite Objects 
 
 ## About
 This is the 1.00 version of this add-on. There may be more features on the way. :)
+
 I hope this add-on will help solve some problems regarding exporting art assets and Unity whiteboxing.
+
 Please email me at `jianghaoli800@gmail.com` should there be any bugs or related problem.
 
 Cheers!🍺
